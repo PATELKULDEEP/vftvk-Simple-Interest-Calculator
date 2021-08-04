@@ -1,17 +1,26 @@
-body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
 
+body {background-color:black;
+      font-family:Arial;  
+      font-size:12px;
+       }
+h1{color:grey;}
 .maindiv{
-
+    background-color:white;
+    width:300px;
+    padding:20px;
+    border-radius:25px;
+    margin:auto;
 }
 
-.maindiv {
+label{
+    width:70px;
+    display: inline-block;
+    font-weight:bold;
+}
 
-    background-color: white;
-    color: black;
-    width: 300px;
-    padding: 20px;
-    border-radius: 25px;
-    align-items: center;
-    align: center;
+
+.highlight{
+    background-color:yellow;
+    font-weight:bold;
+    padding:3px;
 }
